@@ -1,0 +1,215 @@
+body{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1.black{
+font-family: Poppins;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+color: #000000;
+}
+
+h2.red{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: #F75C4E;
+}
+
+p.cinza{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+color: #575455;
+}
+
+.container{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+#header{
+  font-family:'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-decoration-line: underline;
+  color: #070f18;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#menu{
+  text-align: right;
+  margin-top: 49px;
+}
+
+a{
+  color: #070f18;
+  text-decoration: none;
+}
+
+#menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li{
+  display: inline-block;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#headerCta h1{
+font-family: Poppins;
+font-size: 45px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+#headerCta p{
+  color: #575455;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+#buttonCta{
+ background: #1F7CFF;
+ color: #ffffff;
+ border-radius: 50px;
+ font-family: Poppins;
+ font-style: normal;
+ font-size: 16px;
+ font-weight: bold;
+ line-height: 24px;
+ text-align: center;
+ padding: 10px 25px;
+}
+
+#headerImg{
+  margin-left: 42px;
+  
+}
+
+#headerImg img{
+  width: 100%;
+}
+
+.headClientText{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #070F18;
+}
+
+.headlogo{
+  text-align: center;
+}
+
+#clients{
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+
+#services{
+  text-align: center;
+}
+
+.menu-serviços{
+  text-align: center;
+  margin: 30px 5px 30px 5px ;
+  background-color: #eaecef;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.menu-serviços h3{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+  }
+
+  .menu-serviços p{
+    margin-top: 10px;
+  }
+
+  #contact{
+    margin-top: 100px;
+  }
+
+  #contactImg img{
+    width: 100%;
+    text-align: left;
+  }
+
+  #contactForm{
+    margin-left: 75px;
+  }
+
+  #contactForm input{
+    background: #eaecef;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color:#575455;
+    border: 0;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+   }
+
+   #contactForm button{
+    font-family: Poppins;
+    border-radius: 50px;
+    background: #1F7CFF;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+    margin-top: 20px;
+   }
+
+   #potifolioTitle{
+    margin-top: 150px;
+   }
+
+   .portfolioImg img{
+    width: 100%;
+   }
+
+   .portfolioImg{
+    padding: 20px;
+    margin-top: 20px;
+   }
